@@ -13,3 +13,5 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/src
 export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+
+export GIT_EDITOR=vim
