@@ -11,7 +11,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-source /usr/bin/virtualenvwrapper-3.sh
 
 # Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
 setopt clobber
@@ -42,3 +41,6 @@ fi
 if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
 	source $ZPREZTODIR/ext_modules/Snappy/_snap
 fi
+
+source /usr/bin/virtualenvwrapper.sh
+
