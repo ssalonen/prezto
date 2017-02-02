@@ -15,4 +15,8 @@ export PROJECT_HOME=$HOME/src
 export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
+# For Eniram make-dev-env.sh
+export ENVDIR=$WORKON_HOME
+
+
 export GIT_EDITOR=vim
