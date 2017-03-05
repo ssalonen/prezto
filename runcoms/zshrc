@@ -13,9 +13,6 @@ fi
 # Customize to your needs...
 source /usr/bin/virtualenvwrapper-3.sh
 
-# Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
-setopt clobber
-
 # Gcloud auto-complete https://github.com/littleq0903/gcloud-zsh-completion
 if [[ -d ~/.local/opt/gcloud-zsh-completion/src ]]; then
 	fpath=(~/.local/opt/gcloud-zsh-completion/src $fpath)
