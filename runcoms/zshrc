@@ -44,3 +44,5 @@ fi
 
 source /usr/bin/virtualenvwrapper.sh
 
+# Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
+setopt clobber
