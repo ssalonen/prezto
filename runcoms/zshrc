@@ -31,3 +31,8 @@ bashcompinit
 if [[ -f /usr/share/bash-completion/completions/lpass ]]; then
 	source /usr/share/bash-completion/completions/lpass
 fi
+
+# snap / snappy autocomplete
+if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
+	source $ZPREZTODIR/ext_modules/Snappy/_snap
+fi

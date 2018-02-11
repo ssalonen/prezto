@@ -32,4 +32,6 @@
 [submodule "modules/prompt/external/powerlevel10k"]
 	path = modules/prompt/external/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
-	shallow = true
+[submodule "ext_modules/Snappy"]
+	path = ext_modules/Snappy
+	url = https://github.com/Arlon1/Snappy_zsh_autocompletion
