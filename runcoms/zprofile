@@ -47,6 +47,7 @@ path=(
   ~/.yarn/bin
   ~/.cargo/bin
   ~/.npm-global/bin
+  ~/.cargo/bin
   $path
 )
 
