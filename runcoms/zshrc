@@ -12,6 +12,12 @@ fi
 
 # Customize to your needs...
 source /usr/bin/virtualenvwrapper-3.sh
+<<<<<<< HEAD
+=======
+
+# Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
+setopt clobber
+>>>>>>> virtualenvwrapper fedora 28
 
 # Gcloud auto-complete https://github.com/littleq0903/gcloud-zsh-completion
 if [[ -d ~/.local/opt/gcloud-zsh-completion/src ]]; then
@@ -29,20 +35,16 @@ if [[ -f /usr/share/bash-completion/completions/lpass ]]; then
 	source /usr/share/bash-completion/completions/lpass
 fi
 
-<<<<<<< HEAD
 if which rustup > /dev/null ; then
 	rustup completions zsh > ~/.cache/rustup_completions_zsh_cached
 	fpath=(~/.cache/rustup_completions_zsh_cached $fpath)
 	compinit
 fi
 
-=======
->>>>>>> Snap autocomplete
 # snap / snappy autocomplete
 if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
 	source $ZPREZTODIR/ext_modules/Snappy/_snap
 fi
-<<<<<<< HEAD
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
@@ -50,5 +52,3 @@ fi
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh ]] && . /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh
-=======
->>>>>>> Snap autocomplete
