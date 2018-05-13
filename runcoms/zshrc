@@ -32,6 +32,12 @@ if [[ -f /usr/share/bash-completion/completions/lpass ]]; then
 	source /usr/share/bash-completion/completions/lpass
 fi
 
+if which rustup > /dev/null ; then
+	rustup completions zsh > ~/.cache/rustup_completions_zsh_cached
+	fpath=(~/.cache/rustup_completions_zsh_cached $fpath)
+	compinit
+fi
+
 # snap / snappy autocomplete
 if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
 	source $ZPREZTODIR/ext_modules/Snappy/_snap
