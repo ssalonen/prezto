@@ -17,7 +17,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # For Eniram make-dev-env.sh
 export ENVDIR=$WORKON_HOME
-export PYTHON=/Users/<user_name>/.pyenv/shims/python
+export PYTHON=$HOME/.pyenv/shims/python
 export AXIS=enipy2016
 
 

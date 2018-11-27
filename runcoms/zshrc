@@ -42,7 +42,9 @@ if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
 	source $ZPREZTODIR/ext_modules/Snappy/_snap
 fi
 
-source /usr/bin/virtualenvwrapper.sh
+if [[ -f /usr/bin/virtualenvwrapper.sh ]]; then
+	source /usr/bin/virtualenvwrapper.sh
+fi
 
 # Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
 setopt clobber
