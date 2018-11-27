@@ -17,6 +17,14 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # For Eniram make-dev-env.sh
 export ENVDIR=$WORKON_HOME
+export PYTHON=/Users/<user_name>/.pyenv/shims/python
+export AXIS=enipy2016
 
 
 export GIT_EDITOR=vim
+
+
+
+export LDFLAGS="-arch x86_64 -Wall  -L/usr/local/lib -undefined dynamic_lookup  -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl/lib  -ldl -framework CoreFoundation "
+export CFLAGS="-arch x86_64 -I /usr/local/include -I/usr/local/opt/openssl/include -I/usr/local/opt/readline/include"
+ 
