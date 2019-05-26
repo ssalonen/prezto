@@ -44,6 +44,9 @@ typeset -gU cdpath fpath mailpath path
 # Set the list of directories that Zsh searches for programs.
 path=(
   /usr/local/{bin,sbin}
+  ~/.yarn/bin
+  ~/.cargo/bin
+  ~/.npm-global/bin
   $path
 )
 
@@ -65,4 +68,4 @@ fi
 # Allow > to truncate file, see https://unix.stackexchange.com/questions/212127/zsh-disable-file-exists-warning-with-redirection
 setopt clobber
 
-export PATH="$HOME/.cargo/bin:$PATH"
+
