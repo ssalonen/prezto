@@ -42,3 +42,10 @@ fi
 if [[ -f $ZPREZTODIR/ext_modules/Snappy/_snap ]]; then
 	source $ZPREZTODIR/ext_modules/Snappy/_snap
 fi
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/salski/src/finance-scraper/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/salski/src/finance-scraper/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh ]] && . /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh
