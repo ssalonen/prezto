@@ -52,3 +52,6 @@ fi
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh ]] && . /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh
+
+
+{ flatpak list|grep -q com.visualstudio.code.oss } && { alias vscode='flatpak run com.visualstudio.code.oss' ; alias code=vscode }
