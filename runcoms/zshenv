@@ -16,3 +16,9 @@ export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 export GIT_EDITOR=vim
+
+# PlatformIO
+if [[ -d $HOME/.platformio ]]; then
+	export PIOROOT=$HOME/.platformio
+	export PATH=$PATH:$PIOROOT/penv/bin
+fi
