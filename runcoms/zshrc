@@ -60,6 +60,6 @@ fi
 [[ -f /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh ]] && . /home/salski/src/finance-scraper/node_modules/tabtab/.completions/sls.zsh
 
 
-{ flatpak list|grep -q com.visualstudio.code.oss } && { alias vscode='flatpak run com.visualstudio.code.oss' ; alias code=vscode }
+#{ flatpak list|grep -q com.visualstudio.code.oss } && { alias vscode='flatpak run com.visualstudio.code.oss' ; alias code=vscode }
 # profiling slow startup
 #zprof
