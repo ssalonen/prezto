@@ -61,5 +61,10 @@ fi
 
 
 #{ flatpak list|grep -q com.visualstudio.code.oss } && { alias vscode='flatpak run com.visualstudio.code.oss' ; alias code=vscode }
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/salski/.sdkman"
+[[ -s "/home/salski/.sdkman/bin/sdkman-init.sh" ]] && source "/home/salski/.sdkman/bin/sdkman-init.sh"
+
 # profiling slow startup
 #zprof
