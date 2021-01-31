@@ -35,3 +35,6 @@
 [submodule "ext_modules/Snappy"]
 	path = ext_modules/Snappy
 	url = https://github.com/Arlon1/Snappy_zsh_autocompletion
+[submodule "ext_modules/zsh-completions"]
+	path = ext_modules/zsh-completions
+	url = git://github.com/zsh-users/zsh-completions.git
