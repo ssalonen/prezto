@@ -73,3 +73,8 @@ export SDKMAN_DIR="/home/salski/.sdkman"
 
 # profiling slow startup
 #zprof
+
+# Starship prompt (starship.rs)
+# (install first with curl -fsSL https://starship.rs/install.sh | bash)
+export STARSHIP_CONFIG=$ZPREZTODIR/ext_modules/starship/config
+eval "$(starship init zsh)"
